@@ -1,0 +1,2359 @@
+{
+  "marketingProducts": [],
+  "filters": [],
+  "url": "/tehnika",
+  "count": 2812,
+  "countSelectedFilters": 0,
+  "products": [
+    {
+      "price": {
+        "regular": {
+          "amount": 119224,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": false,
+          "crossPrice": false,
+          "useDiscount": false,
+          "discountPercent": 0
+        },
+        "old": null,
+        "actual": {
+          "currency": "RUB",
+          "amount": 119224,
+          "denominator": 1
+        },
+        "hasLoyalty": false
+      },
+      "itemId": "19000217332",
+      "mainVariantItemId": "19000217343",
+      "name": "IPHONE 15 GREEN 256GB",
+      "productType": "Смартфон",
+      "type": "Product",
+      "brand": "Apple",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000217332/web/696d674d61696e8dbcb1f5798c2a7${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 2,
+          "values": [
+            "128 гб",
+            "256 гб"
+          ],
+          "currentUnitValue": "256 гб",
+          "name": ""
+        },
+        "colors": {
+          "count": 4,
+          "values": [
+            {
+              "url": "https://pcdn.goldapple.ru/p/p/19000217332/web/746f6e658dc2dabfdbafb19${screen}.${format}",
+              "format": [
+                "webp",
+                "jpg"
+              ],
+              "screen": [
+                "fullhd",
+                "tablet",
+                "mobile"
+              ]
+            },
+            {
+              "url": "https://pcdn.goldapple.ru/p/p/19000217330/web/746f6e658dc2dabf643dde8${screen}.${format}",
+              "format": [
+                "webp",
+                "jpg"
+              ],
+              "screen": [
+                "fullhd",
+                "tablet",
+                "mobile"
+              ]
+            },
+            {
+              "url": "https://pcdn.goldapple.ru/p/p/19000217343/web/746f6e658dc2da93fb42228${screen}.${format}",
+              "format": [
+                "webp",
+                "jpg"
+              ],
+              "screen": [
+                "fullhd",
+                "tablet",
+                "mobile"
+              ]
+            }
+          ],
+          "name": "Green"
+        }
+      },
+      "labels": [],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000217332-iphone-15-green-256gb",
+      "configurable": true,
+      "needOnlineConsultation": false
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 23520,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": false,
+          "crossPrice": false,
+          "useDiscount": false,
+          "discountPercent": 0
+        },
+        "old": null,
+        "actual": {
+          "currency": "RUB",
+          "amount": 23520,
+          "denominator": 1
+        },
+        "hasLoyalty": false
+      },
+      "itemId": "19000203911",
+      "mainVariantItemId": "19000191438",
+      "name": "Redmi Note 12 8GB+256GB Gray",
+      "productType": "Смартфон",
+      "type": "Product",
+      "brand": "Xiaomi",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000203911/web/696d674d61696e8dbafaec1bd24d0${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 2,
+          "values": [
+            "128 гб",
+            "256 гб"
+          ],
+          "currentUnitValue": "256 гб",
+          "name": ""
+        },
+        "colors": {
+          "count": 4,
+          "values": [
+            {
+              "url": "https://pcdn.goldapple.ru/p/p/19000203911/web/746f6e658dc2d953bf3003f${screen}.${format}",
+              "format": [
+                "webp",
+                "jpg"
+              ],
+              "screen": [
+                "fullhd",
+                "tablet",
+                "mobile"
+              ]
+            },
+            {
+              "url": "https://pcdn.goldapple.ru/p/p/19000203909/web/746f6e658dc2da880ef97c0${screen}.${format}",
+              "format": [
+                "webp",
+                "jpg"
+              ],
+              "screen": [
+                "fullhd",
+                "tablet",
+                "mobile"
+              ]
+            },
+            {
+              "url": "https://pcdn.goldapple.ru/p/p/19000217394/web/746f6e658dc2da1befbd9ff${screen}.${format}",
+              "format": [
+                "webp",
+                "jpg"
+              ],
+              "screen": [
+                "fullhd",
+                "tablet",
+                "mobile"
+              ]
+            }
+          ],
+          "name": "Gray"
+        }
+      },
+      "labels": [],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000203911-redmi-note-12-8gb-256gb-gray",
+      "configurable": true,
+      "needOnlineConsultation": false,
+      "reviews": {
+        "rating": 5,
+        "reviewsCount": 2
+      }
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 26650,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "discount": {
+          "amount": 14657,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": false,
+          "crossPrice": true,
+          "useDiscount": true,
+          "discountPercent": 45
+        },
+        "old": {
+          "currency": "RUB",
+          "amount": 26650,
+          "denominator": 1
+        },
+        "actual": {
+          "currency": "RUB",
+          "amount": 14657,
+          "denominator": 1
+        },
+        "hasLoyalty": false
+      },
+      "itemId": "19000014260",
+      "mainVariantItemId": "19000014260",
+      "name": "GENIUS LIGHT",
+      "productType": "Мультифункциональный косметический прибор для лица",
+      "type": "Product",
+      "brand": "TALIKA",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000014260/web/696d674d61696e8dc2ef811fb473c${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000014260/web/696d67416464318dc2ef81c570027${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000014260/web/696d67416464328dc2ef82d881aa7${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000014260/web/696d67416464338dc2ef825ba7542${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [
+        {
+          "id": "BrandLabOrFea",
+          "group": "standard",
+          "resource": {
+            "resourceUrl": {
+              "url": "https://pcdn.goldapple.ru/p/sl/5374616e646172645f4272616e644c61624f72466561/6c6162656c3634646235626264616137303430333935643539633265348db9d7f65d67561.png",
+              "format": [],
+              "screen": []
+            },
+            "resourceType": "image"
+          }
+        },
+        {
+          "id": "discount",
+          "group": "standard",
+          "backgroundColor": "#FF007E",
+          "text": "45%",
+          "textColor": "#FFFFFF",
+          "textGravity": [
+            "bottom",
+            "middle"
+          ]
+        }
+      ],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000014260-genius-light",
+      "configurable": false,
+      "needOnlineConsultation": false
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 8840,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "loyalty": {
+          "amount": 6630,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": true,
+          "crossPrice": false,
+          "useDiscount": false,
+          "discountPercent": 25
+        },
+        "old": null,
+        "actual": {
+          "currency": "RUB",
+          "amount": 6630,
+          "denominator": 1
+        },
+        "hasLoyalty": true
+      },
+      "itemId": "19000014259",
+      "mainVariantItemId": "19000014259",
+      "name": "PIGMENT CONTROL",
+      "productType": "Аппарат для чистки",
+      "type": "Product",
+      "brand": "TALIKA",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000014259/web/696d674d61696e8dc2ef813fe2b4b${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000014259/web/696d67416464318dc2ef825e94718${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000014259/web/696d67416464328dc2ef835fdfc2a${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000014259/web/696d67416464338dc2ef82e182bb6${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [
+        {
+          "id": "Fast del",
+          "group": "standard",
+          "resource": {
+            "resourceUrl": {
+              "url": "https://pcdn.goldapple.ru/p/sl/5374616e646172645f466173742064656c/6c6162656c3633643133313839336330343263353230636561346462638dafed9dd294ecd.png",
+              "format": [],
+              "screen": []
+            },
+            "resourceType": "image"
+          }
+        },
+        {
+          "id": "BrandLabOrFea",
+          "group": "standard",
+          "resource": {
+            "resourceUrl": {
+              "url": "https://pcdn.goldapple.ru/p/sl/5374616e646172645f4272616e644c61624f72466561/6c6162656c3634646235626264616137303430333935643539633265348db9d7f65d67561.png",
+              "format": [],
+              "screen": []
+            },
+            "resourceType": "image"
+          }
+        }
+      ],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000014259-pigment-control",
+      "configurable": false,
+      "needOnlineConsultation": false
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 68000,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": false,
+          "crossPrice": false,
+          "useDiscount": false,
+          "discountPercent": 0
+        },
+        "old": null,
+        "actual": {
+          "currency": "RUB",
+          "amount": 68000,
+          "denominator": 1
+        },
+        "hasLoyalty": false
+      },
+      "itemId": "19000122670",
+      "mainVariantItemId": "19000122670",
+      "name": "AIRWRAP Complete Long",
+      "productType": "Стайлер",
+      "type": "Product",
+      "brand": "Dyson",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000122670/web/696d674d61696e8dbe9995c61df4c${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [
+        {
+          "id": "Fast del",
+          "group": "standard",
+          "resource": {
+            "resourceUrl": {
+              "url": "https://pcdn.goldapple.ru/p/sl/5374616e646172645f466173742064656c/6c6162656c3633643133313839336330343263353230636561346462638dafed9dd294ecd.png",
+              "format": [],
+              "screen": []
+            },
+            "resourceType": "image"
+          }
+        },
+        {
+          "id": "hit",
+          "group": "standard",
+          "resource": {
+            "resourceUrl": {
+              "url": "https://pcdn.goldapple.ru/p/sl/5374616e646172645f686974/6c6162656c3634633238366566316131666231663031383937323134338db8eb27234c6d8.png",
+              "format": [],
+              "screen": []
+            },
+            "resourceType": "image"
+          }
+        }
+      ],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000122670-supersonic-hd08",
+      "configurable": false,
+      "needOnlineConsultation": false,
+      "reviews": {
+        "rating": 5,
+        "reviewsCount": 4
+      }
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 1238,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "discount": {
+          "amount": 990,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": false,
+          "crossPrice": true,
+          "useDiscount": true,
+          "discountPercent": 20
+        },
+        "old": {
+          "currency": "RUB",
+          "amount": 1238,
+          "denominator": 1
+        },
+        "actual": {
+          "currency": "RUB",
+          "amount": 990,
+          "denominator": 1
+        },
+        "hasLoyalty": false
+      },
+      "itemId": "19000082502",
+      "mainVariantItemId": "19000082502",
+      "name": "GL4166",
+      "productType": "Набор для стрижки",
+      "type": "Product",
+      "brand": "GALAXY LINE",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000082502/web/696d674d61696e8dad84d87ebac14${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [
+        {
+          "id": "discount",
+          "group": "standard",
+          "backgroundColor": "#FF007E",
+          "text": "20%",
+          "textColor": "#FFFFFF",
+          "textGravity": [
+            "bottom",
+            "middle"
+          ]
+        }
+      ],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000082502-gl4166",
+      "configurable": false,
+      "needOnlineConsultation": false
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 4900,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "loyalty": {
+          "amount": 4410,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": true,
+          "crossPrice": false,
+          "useDiscount": false,
+          "discountPercent": 10
+        },
+        "old": null,
+        "actual": {
+          "currency": "RUB",
+          "amount": 4410,
+          "denominator": 1
+        },
+        "hasLoyalty": true
+      },
+      "itemId": "19000111945",
+      "mainVariantItemId": "19000111945",
+      "name": "m1090",
+      "productType": "Прибор для ухода за кожей лица",
+      "type": "Product",
+      "brand": "Gezatone",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000111945/web/696d674d61696e8dad2052994d198${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [
+        {
+          "id": "hit",
+          "group": "standard",
+          "resource": {
+            "resourceUrl": {
+              "url": "https://pcdn.goldapple.ru/p/sl/5374616e646172645f686974/6c6162656c3634633238366566316131666231663031383937323134338db8eb27234c6d8.png",
+              "format": [],
+              "screen": []
+            },
+            "resourceType": "image"
+          }
+        }
+      ],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000111945-m1090",
+      "configurable": false,
+      "needOnlineConsultation": false,
+      "reviews": {
+        "rating": 4.5,
+        "reviewsCount": 2
+      }
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 5990,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": false,
+          "crossPrice": false,
+          "useDiscount": false,
+          "discountPercent": 0
+        },
+        "old": null,
+        "actual": {
+          "currency": "RUB",
+          "amount": 5990,
+          "denominator": 1
+        },
+        "hasLoyalty": false
+      },
+      "itemId": "19000214057",
+      "mainVariantItemId": "19000214057",
+      "name": "white",
+      "productType": "Электрический мини термочайник",
+      "type": "Product",
+      "brand": "Morphy Richards",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000214057/web/696d674d61696e8dbe6aaf726102e${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000214057/web/696d67416464318dbe6aafa056b98${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000214057-white",
+      "configurable": false,
+      "needOnlineConsultation": false
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 7176,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "loyalty": {
+          "amount": 6458,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": true,
+          "crossPrice": false,
+          "useDiscount": false,
+          "discountPercent": 10
+        },
+        "old": null,
+        "actual": {
+          "currency": "RUB",
+          "amount": 6458,
+          "denominator": 1
+        },
+        "hasLoyalty": true
+      },
+      "itemId": "19000048895",
+      "mainVariantItemId": "19000048895",
+      "name": "Toothbrush Pro 3/D505.513.3X BK",
+      "productType": "Зубная щетка электрическая",
+      "type": "Product",
+      "brand": "Oral-B",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000048895/web/696d674d61696e8dad8102cdd681b${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000048895-toothbrush-pro-3-d505-513-3x-bk",
+      "configurable": false,
+      "needOnlineConsultation": false
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 13920,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "discount": {
+          "amount": 6960,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": false,
+          "crossPrice": true,
+          "useDiscount": true,
+          "discountPercent": 50
+        },
+        "old": {
+          "currency": "RUB",
+          "amount": 13920,
+          "denominator": 1
+        },
+        "actual": {
+          "currency": "RUB",
+          "amount": 6960,
+          "denominator": 1
+        },
+        "hasLoyalty": false
+      },
+      "itemId": "19000117715",
+      "mainVariantItemId": "19000117715",
+      "name": "КЛАССИК, Бирюзовый",
+      "productType": "Микродермабразия",
+      "type": "Product",
+      "brand": "PMD Beauty ",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000117715/web/696d674d61696e8db05beba02b251${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000117715/web/696d67416464318db05bebed3ad7b${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000117715/web/696d67416464328db05bec60cc3d2${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000117715/web/696d67416464338db05bec24f9bb0${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [
+        {
+          "id": "discount",
+          "group": "standard",
+          "backgroundColor": "#FF007E",
+          "text": "50%",
+          "textColor": "#FFFFFF",
+          "textGravity": [
+            "bottom",
+            "middle"
+          ]
+        }
+      ],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000117715-klassik-biruzovyj",
+      "configurable": false,
+      "needOnlineConsultation": false
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 44590,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": false,
+          "crossPrice": false,
+          "useDiscount": false,
+          "discountPercent": 0
+        },
+        "old": null,
+        "actual": {
+          "currency": "RUB",
+          "amount": 44590,
+          "denominator": 1
+        },
+        "hasLoyalty": false
+      },
+      "itemId": "19000156210",
+      "mainVariantItemId": "19000156210",
+      "name": "Supersonic HD08",
+      "productType": "Фен",
+      "type": "Product",
+      "brand": "Dyson",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000156210/web/696d674d61696e8db206807f40827${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [
+        {
+          "id": "hit",
+          "group": "standard",
+          "resource": {
+            "resourceUrl": {
+              "url": "https://pcdn.goldapple.ru/p/sl/5374616e646172645f686974/6c6162656c3634633238366566316131666231663031383937323134338db8eb27234c6d8.png",
+              "format": [],
+              "screen": []
+            },
+            "resourceType": "image"
+          }
+        }
+      ],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000156210-supersonic-hd08",
+      "configurable": false,
+      "needOnlineConsultation": false,
+      "reviews": {
+        "rating": 5,
+        "reviewsCount": 3
+      }
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 163684,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": false,
+          "crossPrice": false,
+          "useDiscount": false,
+          "discountPercent": 0
+        },
+        "old": null,
+        "actual": {
+          "currency": "RUB",
+          "amount": 163684,
+          "denominator": 1
+        },
+        "hasLoyalty": false
+      },
+      "itemId": "19000217340",
+      "mainVariantItemId": "19000217342",
+      "name": "IPHONE 15 PRO TITANIUM 256GB",
+      "productType": "Смартфон",
+      "type": "Product",
+      "brand": "Apple",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000217340/web/696d674d61696e8dbcb1f7ee1392f${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 2,
+          "values": [
+            "128 гб",
+            "256 гб"
+          ],
+          "currentUnitValue": "256 гб",
+          "name": ""
+        },
+        "colors": {
+          "count": 3,
+          "values": [
+            {
+              "url": "https://pcdn.goldapple.ru/p/p/19000217340/web/746f6e658dc2db0500f96ab${screen}.${format}",
+              "format": [
+                "webp",
+                "jpg"
+              ],
+              "screen": [
+                "fullhd",
+                "tablet",
+                "mobile"
+              ]
+            },
+            {
+              "url": "https://pcdn.goldapple.ru/p/p/19000217334/web/746f6e658dc2dabfd32f54d${screen}.${format}",
+              "format": [
+                "webp",
+                "jpg"
+              ],
+              "screen": [
+                "fullhd",
+                "tablet",
+                "mobile"
+              ]
+            },
+            {
+              "url": "https://pcdn.goldapple.ru/p/p/19000217342/web/746f6e658dc2dac8f7e1927${screen}.${format}",
+              "format": [
+                "webp",
+                "jpg"
+              ],
+              "screen": [
+                "fullhd",
+                "tablet",
+                "mobile"
+              ]
+            }
+          ],
+          "name": "Titanium "
+        }
+      },
+      "labels": [],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000217340-iphone-15-pro-titanium-256gb",
+      "configurable": true,
+      "needOnlineConsultation": false
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 88990,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": false,
+          "crossPrice": false,
+          "useDiscount": false,
+          "discountPercent": 0
+        },
+        "old": null,
+        "actual": {
+          "currency": "RUB",
+          "amount": 88990,
+          "denominator": 1
+        },
+        "hasLoyalty": false
+      },
+      "itemId": "19000198143",
+      "mainVariantItemId": "19000198142",
+      "name": "Iphone 14 midnight 128 Gb",
+      "productType": "Смартфон",
+      "type": "Product",
+      "brand": "Apple",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000198143/web/696d674d61696e8db98c64773dec7${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "128 гб"
+          ],
+          "currentUnitValue": "128 гб",
+          "name": ""
+        },
+        "colors": {
+          "count": 4,
+          "values": [
+            {
+              "url": "https://pcdn.goldapple.ru/p/p/19000198143/web/746f6e658dc2d9d04492d6f${screen}.${format}",
+              "format": [
+                "webp",
+                "jpg"
+              ],
+              "screen": [
+                "fullhd",
+                "tablet",
+                "mobile"
+              ]
+            },
+            {
+              "url": "https://pcdn.goldapple.ru/p/p/19000198142/web/746f6e658dc2da3ba4e16e5${screen}.${format}",
+              "format": [
+                "webp",
+                "jpg"
+              ],
+              "screen": [
+                "fullhd",
+                "tablet",
+                "mobile"
+              ]
+            },
+            {
+              "url": "https://pcdn.goldapple.ru/p/p/19000198144/web/746f6e658dc2d9fbfa717c5${screen}.${format}",
+              "format": [
+                "webp",
+                "jpg"
+              ],
+              "screen": [
+                "fullhd",
+                "tablet",
+                "mobile"
+              ]
+            }
+          ],
+          "name": "Midnight "
+        }
+      },
+      "labels": [],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000198143-iphone-14-midnight-128-gb",
+      "configurable": true,
+      "needOnlineConsultation": false
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 499,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "discount": {
+          "amount": 309,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": false,
+          "crossPrice": true,
+          "useDiscount": true,
+          "discountPercent": 38
+        },
+        "old": {
+          "currency": "RUB",
+          "amount": 499,
+          "denominator": 1
+        },
+        "actual": {
+          "currency": "RUB",
+          "amount": 309,
+          "denominator": 1
+        },
+        "hasLoyalty": false
+      },
+      "itemId": "19000166584",
+      "mainVariantItemId": "19000166584",
+      "name": "TRIO EYEBROW RAZOR",
+      "productType": "Триммер для коррекции бровей универсальный",
+      "type": "Product",
+      "brand": "BASICARE",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000166584/web/696d674d61696e8db62e99d4faed3${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000166584/web/696d67416464318db62e9a0594ec7${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000166584/web/696d67416464328db62e9a3477981${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000166584/web/696d67416464338db62e9a656629f${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [
+        {
+          "id": "discount",
+          "group": "standard",
+          "backgroundColor": "#FF007E",
+          "text": "38%",
+          "textColor": "#FFFFFF",
+          "textGravity": [
+            "bottom",
+            "middle"
+          ]
+        }
+      ],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000166584-trio-eyebrow-razor",
+      "configurable": false,
+      "needOnlineConsultation": false,
+      "reviews": {
+        "rating": 5,
+        "reviewsCount": 5
+      }
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 16290,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "loyalty": {
+          "amount": 14661,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": true,
+          "crossPrice": false,
+          "useDiscount": false,
+          "discountPercent": 10
+        },
+        "old": null,
+        "actual": {
+          "currency": "RUB",
+          "amount": 14661,
+          "denominator": 1
+        },
+        "hasLoyalty": true
+      },
+      "itemId": "19000040903",
+      "mainVariantItemId": "19000040903",
+      "name": "My Beauty Routine LV8530F0",
+      "productType": "Прибор для очищения и ухода за лицом",
+      "type": "Product",
+      "brand": "Rowenta",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000040903/web/696d674d61696e8db31e7780e0e6c${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000040903/web/696d67416464318db31e77b237faa${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000040903/web/696d67416464328db31e77e503b79${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000040903/web/696d67416464338db31e7818f0c2d${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [
+        {
+          "id": "Fast del",
+          "group": "standard",
+          "resource": {
+            "resourceUrl": {
+              "url": "https://pcdn.goldapple.ru/p/sl/5374616e646172645f466173742064656c/6c6162656c3633643133313839336330343263353230636561346462638dafed9dd294ecd.png",
+              "format": [],
+              "screen": []
+            },
+            "resourceType": "image"
+          }
+        }
+      ],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000040903-skin-care-reset-boost",
+      "configurable": false,
+      "needOnlineConsultation": false
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 13600,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "discount": {
+          "amount": 9520,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": false,
+          "crossPrice": true,
+          "useDiscount": true,
+          "discountPercent": 30
+        },
+        "old": {
+          "currency": "RUB",
+          "amount": 13600,
+          "denominator": 1
+        },
+        "actual": {
+          "currency": "RUB",
+          "amount": 9520,
+          "denominator": 1
+        },
+        "hasLoyalty": false
+      },
+      "itemId": "19000253106",
+      "mainVariantItemId": "19000253106",
+      "name": "Sapphire epilator",
+      "productType": "Сапфировый эпилятор",
+      "type": "Product",
+      "brand": "Telzen",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000253106/web/696d674d61696e8dc222f8e5b4403${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [
+        {
+          "id": "discount",
+          "group": "standard",
+          "backgroundColor": "#FF007E",
+          "text": "30%",
+          "textColor": "#FFFFFF",
+          "textGravity": [
+            "bottom",
+            "middle"
+          ]
+        }
+      ],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000253106-sapphire-epilator",
+      "configurable": false,
+      "needOnlineConsultation": false,
+      "reviews": {
+        "rating": 5,
+        "reviewsCount": 1
+      }
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 6108,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "discount": {
+          "amount": 4458,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": false,
+          "crossPrice": true,
+          "useDiscount": true,
+          "discountPercent": 27
+        },
+        "old": {
+          "currency": "RUB",
+          "amount": 6108,
+          "denominator": 1
+        },
+        "actual": {
+          "currency": "RUB",
+          "amount": 4458,
+          "denominator": 1
+        },
+        "hasLoyalty": false
+      },
+      "itemId": "19000203102",
+      "mainVariantItemId": "19000203102",
+      "name": "AS136E grey and beige",
+      "productType": "Фен-щетка",
+      "type": "Product",
+      "brand": "Babyliss",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000203102/web/696d674d61696e8dba9278cbac826${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [
+        {
+          "id": "discount",
+          "group": "standard",
+          "backgroundColor": "#FF007E",
+          "text": "27%",
+          "textColor": "#FFFFFF",
+          "textGravity": [
+            "bottom",
+            "middle"
+          ]
+        },
+        {
+          "id": "hit",
+          "group": "standard",
+          "resource": {
+            "resourceUrl": {
+              "url": "https://pcdn.goldapple.ru/p/sl/5374616e646172645f686974/6c6162656c3634633238366566316131666231663031383937323134338db8eb27234c6d8.png",
+              "format": [],
+              "screen": []
+            },
+            "resourceType": "image"
+          }
+        }
+      ],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000203102-as136e-grey-and-beige",
+      "configurable": false,
+      "needOnlineConsultation": false,
+      "reviews": {
+        "rating": 5,
+        "reviewsCount": 1
+      }
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 1951,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "discount": {
+          "amount": 1209,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": false,
+          "crossPrice": true,
+          "useDiscount": true,
+          "discountPercent": 38
+        },
+        "old": {
+          "currency": "RUB",
+          "amount": 1951,
+          "denominator": 1
+        },
+        "actual": {
+          "currency": "RUB",
+          "amount": 1209,
+          "denominator": 1
+        },
+        "hasLoyalty": false
+      },
+      "itemId": "19000058588",
+      "mainVariantItemId": "19000058588",
+      "name": "Мятный",
+      "productType": "Планшет для рисования магнитами, мини",
+      "type": "Product",
+      "brand": "Назад К Истокам",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000058588/web/696d674d61696e8dc48d7a3678e36${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000058588/web/696d67416464318dc48d7a683bbba${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [
+        {
+          "id": "discount",
+          "group": "standard",
+          "backgroundColor": "#FF007E",
+          "text": "38%",
+          "textColor": "#FFFFFF",
+          "textGravity": [
+            "bottom",
+            "middle"
+          ]
+        }
+      ],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000058588-matnyj",
+      "configurable": false,
+      "needOnlineConsultation": false
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 3950,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "loyalty": {
+          "amount": 3555,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": true,
+          "crossPrice": false,
+          "useDiscount": false,
+          "discountPercent": 10
+        },
+        "old": null,
+        "actual": {
+          "currency": "RUB",
+          "amount": 3555,
+          "denominator": 1
+        },
+        "hasLoyalty": true
+      },
+      "itemId": "19000103341",
+      "mainVariantItemId": "19000103341",
+      "name": "Super Nova",
+      "productType": "Аппарат для дарсонвальной терапии",
+      "type": "Product",
+      "brand": "GESS",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000103341/web/696d674d61696e8dbec0b486cc229${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [
+        {
+          "id": "hit",
+          "group": "standard",
+          "resource": {
+            "resourceUrl": {
+              "url": "https://pcdn.goldapple.ru/p/sl/5374616e646172645f686974/6c6162656c3634633238366566316131666231663031383937323134338db8eb27234c6d8.png",
+              "format": [],
+              "screen": []
+            },
+            "resourceType": "image"
+          }
+        }
+      ],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000103341-super-nova",
+      "configurable": false,
+      "needOnlineConsultation": false,
+      "reviews": {
+        "rating": 5,
+        "reviewsCount": 1
+      }
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 1534,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "discount": {
+          "amount": 1303,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": false,
+          "crossPrice": true,
+          "useDiscount": true,
+          "discountPercent": 15
+        },
+        "old": {
+          "currency": "RUB",
+          "amount": 1534,
+          "denominator": 1
+        },
+        "actual": {
+          "currency": "RUB",
+          "amount": 1303,
+          "denominator": 1
+        },
+        "hasLoyalty": false
+      },
+      "itemId": "19000121629",
+      "mainVariantItemId": "19000121629",
+      "name": "Лунная ночь",
+      "productType": "Ночник",
+      "type": "Product",
+      "brand": "DASWERK",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000121629/web/696d674d61696e8dad87ba9712adb${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [
+        {
+          "id": "discount",
+          "group": "standard",
+          "backgroundColor": "#FF007E",
+          "text": "15%",
+          "textColor": "#FFFFFF",
+          "textGravity": [
+            "bottom",
+            "middle"
+          ]
+        },
+        {
+          "id": "hit",
+          "group": "standard",
+          "resource": {
+            "resourceUrl": {
+              "url": "https://pcdn.goldapple.ru/p/sl/5374616e646172645f686974/6c6162656c3634633238366566316131666231663031383937323134338db8eb27234c6d8.png",
+              "format": [],
+              "screen": []
+            },
+            "resourceType": "image"
+          }
+        }
+      ],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000121629-lunnaa-noc",
+      "configurable": false,
+      "needOnlineConsultation": false,
+      "reviews": {
+        "rating": 5,
+        "reviewsCount": 1
+      }
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 27000,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": false,
+          "crossPrice": false,
+          "useDiscount": false,
+          "discountPercent": 0
+        },
+        "old": null,
+        "actual": {
+          "currency": "RUB",
+          "amount": 27000,
+          "denominator": 1
+        },
+        "hasLoyalty": false
+      },
+      "itemId": "19000237105",
+      "mainVariantItemId": "19000237105",
+      "name": "F780",
+      "productType": "Фен",
+      "type": "Product",
+      "brand": "BORK",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000237105/web/696d674d61696e8dbf589be058a3d${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000237105/web/696d67416464318dc27d12e95ecc4${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000237105/web/696d67416464328dc27d13197e225${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000237105-f780",
+      "configurable": false,
+      "needOnlineConsultation": false
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 4457,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "loyalty": {
+          "amount": 4011,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": true,
+          "crossPrice": false,
+          "useDiscount": false,
+          "discountPercent": 10
+        },
+        "old": null,
+        "actual": {
+          "currency": "RUB",
+          "amount": 4011,
+          "denominator": 1
+        },
+        "hasLoyalty": true
+      },
+      "itemId": "19000202291",
+      "mainVariantItemId": "19000202291",
+      "name": "H603 красный",
+      "productType": "Монитор сердечного ритма",
+      "type": "Product",
+      "brand": "Magene",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000202291/web/696d674d61696e8dbb699bce15232${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000202291/web/696d67416464318dbb699c0a07e6c${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000202291/web/696d67416464328dbb699c7ba17ef${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000202291/web/696d67416464338dbb699c39d0022${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000202291-h603-krasnyj",
+      "configurable": false,
+      "needOnlineConsultation": false
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 7084,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "loyalty": {
+          "amount": 6375,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": true,
+          "crossPrice": false,
+          "useDiscount": false,
+          "discountPercent": 10
+        },
+        "old": null,
+        "actual": {
+          "currency": "RUB",
+          "amount": 6375,
+          "denominator": 1
+        },
+        "hasLoyalty": true
+      },
+      "itemId": "19000227291",
+      "mainVariantItemId": "19000227291",
+      "name": "ST250E черный",
+      "productType": "Выпрямитель",
+      "type": "Product",
+      "brand": "Babyliss",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000227291/web/696d674d61696e8dc4a5abff16c6c${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [
+        {
+          "id": "hit",
+          "group": "standard",
+          "resource": {
+            "resourceUrl": {
+              "url": "https://pcdn.goldapple.ru/p/sl/5374616e646172645f686974/6c6162656c3634633238366566316131666231663031383937323134338db8eb27234c6d8.png",
+              "format": [],
+              "screen": []
+            },
+            "resourceType": "image"
+          }
+        }
+      ],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000227291-st250e-cernyj",
+      "configurable": false,
+      "needOnlineConsultation": false,
+      "reviews": {
+        "rating": 5,
+        "reviewsCount": 1
+      }
+    },
+    {
+      "price": {
+        "regular": {
+          "amount": 852,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "loyalty": {
+          "amount": 766,
+          "currency": "RUB",
+          "denominator": 1
+        },
+        "viewOptions": {
+          "priceFrom": true,
+          "crossPrice": false,
+          "useDiscount": false,
+          "discountPercent": 10
+        },
+        "old": null,
+        "actual": {
+          "currency": "RUB",
+          "amount": 766,
+          "denominator": 1
+        },
+        "hasLoyalty": true
+      },
+      "itemId": "19000074146",
+      "mainVariantItemId": "19000074146",
+      "name": "NLED-418-2W-W белый",
+      "productType": "Светильник-ночник",
+      "type": "Product",
+      "brand": "ЭРА",
+      "imageUrls": [
+        {
+          "url": "https://pcdn.goldapple.ru/p/p/19000074146/web/696d674d61696e8dc321dd13d8e29${screen}.${format}",
+          "format": [
+            "webp",
+            "jpg"
+          ],
+          "screen": [
+            "fullhd",
+            "tablet",
+            "mobile"
+          ]
+        }
+      ],
+      "favourite": false,
+      "attributes": {
+        "units": {
+          "count": 1,
+          "values": [
+            "1"
+          ],
+          "currentUnitValue": "1",
+          "name": "шт"
+        },
+        "colors": {
+          "count": 0,
+          "values": [],
+          "name": ""
+        }
+      },
+      "labels": [],
+      "isAdult": false,
+      "inStock": true,
+      "url": "/19000074146-nled-418-2w-w-belyj",
+      "configurable": false,
+      "needOnlineConsultation": false
+    }
+  ]
+}
