@@ -17,9 +17,28 @@ class ProductList(BaseModel):
         return [i.itemId for i in value]
 
 
-# with open('test.json', encoding='utf-8') as f:
-#     data = json.load(f)
-#
-# pd_data = ProductList(**data)
-# print(pd_data.count)
-# print(pd_data.products)
+class Description(BaseModel):
+    text: str
+    content: str
+
+
+class Actual(BaseModel):
+    amount: int
+
+
+class Price(BaseModel):
+    actual: Actual
+
+
+class Variant(BaseModel):
+    itemId: str
+    price: Price
+
+
+class ProductData(BaseModel):
+    id: str
+    name: str
+    brand: str
+    productType: str
+    productDescription: List[Description]
+    variants: List[Variant]
