@@ -6,7 +6,7 @@ from loguru import logger
 from tenacity import retry
 
 from .config import PAGES_URL
-from .models import ProductList
+from .models import ProductList, ProductData
 
 
 # @retry
@@ -52,3 +52,4 @@ async def get_product_detail(session: ClientSession, url: str):
     data = await get_json(session, url)
     with open('test.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+    return ProductData(**data['data'])
