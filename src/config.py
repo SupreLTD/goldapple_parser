@@ -1,3 +1,5 @@
+DB_URL = 'postgres://postgres:7030908@localhost:5432/postgres'
+
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0',
     'Accept': 'application/json, text/plain, */*',

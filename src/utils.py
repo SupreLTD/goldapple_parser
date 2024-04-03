@@ -12,7 +12,7 @@ from .models import ProductList, ProductData
 # @retry
 async def get_json(session: ClientSession, url: str) -> json:
     async with session.get(url) as response:
-        logger.info(response.status)
+
         assert response.status == 200
         data = await response.json()
         return data
@@ -26,7 +26,7 @@ async def get_product_list(session: ClientSession, url: str) -> ProductList:
 
 async def get_product_ids(session: ClientSession) -> list:
     ids = []
-    start_data = await get_product_list(session, f'{PAGES_URL}1')
+    start_data = await get_product_list(session, f'{PAGES_URL}0')
     count = start_data.count
     ids.extend(start_data.products)
 
@@ -36,7 +36,7 @@ async def get_product_ids(session: ClientSession) -> list:
         last_page = (count // 24) + 2
 
     tasks = []
-    for i in range(2, last_page):
+    for i in range(1, last_page):
         task = asyncio.create_task(get_product_list(session, f'{PAGES_URL}{i}'))
         tasks.append(task)
 
@@ -48,8 +48,6 @@ async def get_product_ids(session: ClientSession) -> list:
     return ids
 
 
-async def get_product_detail(session: ClientSession, url: str):
+async def get_product_detail(session: ClientSession, url: str) -> tuple:
     data = await get_json(session, url)
-    with open('test.json', 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    return ProductData(**data['data'])
+    return ProductData(**data['data']).to_tuple()

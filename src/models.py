@@ -2,7 +2,9 @@ import json
 from pprint import pprint
 
 from pydantic import BaseModel, field_validator, Field
-from typing import List, Any, Optional
+from typing import List, Any, Generator
+from dataclasses import astuple, asdict
+
 
 
 class ProductDetail(BaseModel):
@@ -48,7 +50,7 @@ class ProductData(BaseModel):
     productDescription: List[Description]
     variants: List[Variant]
 
-    price: str = Field(default='')
+    price: int = Field(default=0)
     description: str = Field(default='')
     application: str = Field(default='')
     composition: str = Field(default='')
@@ -56,7 +58,7 @@ class ProductData(BaseModel):
     addit_information: str = Field(default='')
 
     def model_post_init(self, __context: Any) -> None:
-        self.price = next((variant.price for variant in self.variants if variant.itemId == self.id), '')
+        self.price = int(next((variant.price for variant in self.variants if variant.itemId == self.id), ''))
         for desc in self.productDescription:
             if desc.text == 'описание':
                 self.description = desc.content
@@ -68,10 +70,12 @@ class ProductData(BaseModel):
                 self.about_brand = desc.content
             elif desc.text == 'Дополнительная информация':
                 self.addit_information = desc.content
+
         del self.__dict__['variants']
         del self.__dict__['productDescription']
 
-
+    def to_tuple(self):
+        return tuple(self.__dict__.values())
 
 
 
