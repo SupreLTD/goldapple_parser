@@ -1,10 +1,7 @@
 import json
-from pprint import pprint
 
 from pydantic import BaseModel, field_validator, Field
-from typing import List, Any, Generator
-from dataclasses import astuple, asdict
-
+from typing import List, Any
 
 
 class ProductDetail(BaseModel):
@@ -59,23 +56,40 @@ class ProductData(BaseModel):
 
     def model_post_init(self, __context: Any) -> None:
         self.price = int(next((variant.price for variant in self.variants if variant.itemId == self.id), ''))
+        # for desc in self.productDescription:
+        #     if desc.text == 'описание':
+        #         self.description = desc.content
+        #     elif desc.text == 'применение':
+        #         self.application = desc.content
+        #     elif desc.text == 'состав':
+        #         self.composition = desc.content
+        #     elif desc.text == 'о бренде':
+        #         self.about_brand = desc.content
+        #     elif desc.text == 'Дополнительная информация':
+        #         self.addit_information = desc.content
+
+        attributes_mapping = {
+            'описание': 'description',
+            'применение': 'application',
+            'состав': 'composition',
+            'о бренде': 'about_brand',
+            'Дополнительная информация': 'addit_information'
+        }
+
         for desc in self.productDescription:
-            if desc.text == 'описание':
-                self.description = desc.content
-            elif desc.text == 'применение':
-                self.application = desc.content
-            elif desc.text == 'состав':
-                self.composition = desc.content
-            elif desc.text == 'о бренде':
-                self.about_brand = desc.content
-            elif desc.text == 'Дополнительная информация':
-                self.addit_information = desc.content
+            attribute_name = attributes_mapping.get(desc.text)
+            if attribute_name:
+                setattr(self, attribute_name, desc.content)
 
         del self.__dict__['variants']
         del self.__dict__['productDescription']
 
-    def to_tuple(self):
+    def to_tuple(self) -> tuple:
         return tuple(self.__dict__.values())
 
-
-
+# with open('test.json', encoding='utf-8') as f:
+#     data = json.load(f)
+#
+# data = ProductData(**data['data'])
+# data.model_post_init('some')
+# print(data.model_post_init.__dir__())

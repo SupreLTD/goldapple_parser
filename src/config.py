@@ -13,3 +13,4 @@ HEADERS = {
 }
 
 PAGES_URL = 'https://goldapple.ru/front/api/catalog/plp?categoryId=1000003870&cityId=0c5b2444-70a0-4932-980c-b4dc0d3f02b5&geoPolygons[]=EKB-000000347&geoPolygons[]=EKB-000000367&geoPolygons[]=EKB-000000360&geoPolygons[]=EKB-000000356&pageNumber='
+ITEM_URL = 'https://goldapple.ru/front/api/catalog/product-card?itemId=%s&cityId=0c5b2444-70a0-4932-980c-b4dc0d3f02b5'

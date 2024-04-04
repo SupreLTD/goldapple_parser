@@ -53,7 +53,4 @@ async def get_products():
     result = await conn.fetch("""SELECT product_id, name, brand, price, description, application, composition, 
     about_brand, addit_information FROM product""")
     await conn.close()
-    return result
-
-
-asyncio.run(create_table())
+    return [list(i) for i in result]
