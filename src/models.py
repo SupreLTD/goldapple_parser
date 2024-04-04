@@ -1,4 +1,5 @@
 import json
+import os
 
 from pydantic import BaseModel, field_validator, Field
 from typing import List, Any
@@ -93,3 +94,6 @@ class ProductData(BaseModel):
 # data = ProductData(**data['data'])
 # data.model_post_init('some')
 # print(data.model_post_init.__dir__())
+
+# print(os.path.dirname(__file__))
+# print(os.path.exists('test.py'))

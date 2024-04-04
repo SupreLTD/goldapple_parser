@@ -1,5 +1,4 @@
 import asyncio
-import tracemalloc
 
 from aiohttp import ClientSession, ClientTimeout
 from loguru import logger
@@ -10,10 +9,12 @@ from tqdm import tqdm
 
 from .config import HEADERS, ITEM_URL
 from .db_client import insert_data, create_table, data_cleaner
-from .utils import get_product_detail, get_product_ids
+from .utils import get_product_detail, get_product_ids, write_to_excel
 
 
 async def main():
+    await write_to_excel()
+
     await create_table()
     await data_cleaner()
     async with ClientSession(headers=HEADERS, timeout=ClientTimeout(total=60)) as session:
