@@ -1,6 +1,3 @@
-import json
-import os
-
 from pydantic import BaseModel, field_validator, Field
 from typing import List, Any
 
@@ -53,28 +50,17 @@ class ProductData(BaseModel):
     application: str = Field(default='')
     composition: str = Field(default='')
     about_brand: str = Field(default='')
-    addit_information: str = Field(default='')
+    addit_info: str = Field(default='')
 
     def model_post_init(self, __context: Any) -> None:
-        self.price = int(next((variant.price for variant in self.variants if variant.itemId == self.id), ''))
-        # for desc in self.productDescription:
-        #     if desc.text == 'описание':
-        #         self.description = desc.content
-        #     elif desc.text == 'применение':
-        #         self.application = desc.content
-        #     elif desc.text == 'состав':
-        #         self.composition = desc.content
-        #     elif desc.text == 'о бренде':
-        #         self.about_brand = desc.content
-        #     elif desc.text == 'Дополнительная информация':
-        #         self.addit_information = desc.content
+        self.price = int(next((i.price for i in self.variants if i.itemId == self.id), 0))
 
         attributes_mapping = {
             'описание': 'description',
             'применение': 'application',
             'состав': 'composition',
             'о бренде': 'about_brand',
-            'Дополнительная информация': 'addit_information'
+            'Дополнительная информация': 'addit_info',
         }
 
         for desc in self.productDescription:
@@ -82,18 +68,8 @@ class ProductData(BaseModel):
             if attribute_name:
                 setattr(self, attribute_name, desc.content)
 
-        del self.__dict__['variants']
         del self.__dict__['productDescription']
+        del self.__dict__['variants']
 
     def to_tuple(self) -> tuple:
         return tuple(self.__dict__.values())
-
-# with open('test.json', encoding='utf-8') as f:
-#     data = json.load(f)
-#
-# data = ProductData(**data['data'])
-# data.model_post_init('some')
-# print(data.model_post_init.__dir__())
-
-# print(os.path.dirname(__file__))
-# print(os.path.exists('test.py'))

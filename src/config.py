@@ -1,4 +1,18 @@
-DB_URL = 'postgres://postgres:7030908@localhost:5432/postgres'
+import os
+from pydantic_settings import BaseSettings
+
+
+class Settings(BaseSettings):
+    db_url: str
+    pages_url: str
+    prod_url: str
+
+    class Config:
+        env_file = data_path = os.path.join(os.path.dirname(__file__), '../.env')
+        env_file_encoding = 'utf-8'
+
+
+config = Settings()
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0',
@@ -11,6 +25,3 @@ HEADERS = {
     'Sec-Fetch-Mode': 'cors',
     'Sec-Fetch-Site': 'same-origin',
 }
-
-PAGES_URL = 'https://goldapple.ru/front/api/catalog/plp?categoryId=1000003870&cityId=0c5b2444-70a0-4932-980c-b4dc0d3f02b5&geoPolygons[]=EKB-000000347&geoPolygons[]=EKB-000000367&geoPolygons[]=EKB-000000360&geoPolygons[]=EKB-000000356&pageNumber='
-ITEM_URL = 'https://goldapple.ru/front/api/catalog/product-card?itemId=%s&cityId=0c5b2444-70a0-4932-980c-b4dc0d3f02b5'

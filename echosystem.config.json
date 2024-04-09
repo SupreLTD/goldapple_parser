@@ -1,0 +1,26 @@
+{
+  "apps": [
+    {
+      "name": "parser",
+      "script": "runner.py",
+      "args": [],
+      "exec_mode": "fork",
+      "instances": "1",
+      "wait_ready": true,
+      "auto_restart": true,
+      "max_restarts": 9999,
+      "interpreter": "venv/bin/python3"
+    },
+    {
+      "name": "api",
+      "script": "api.py",
+      "args": [],
+      "exec_mode": "fork",
+      "instances": "1",
+      "wait_ready": true,
+      "auto_restart": true,
+      "max_restarts": 9999,
+      "interpreter": "venv/bin/python3"
+    }
+  ]
+}
