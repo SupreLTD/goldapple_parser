@@ -68,7 +68,7 @@ async def get_product_detail(session: ClientSession, url: str) -> tuple:
     return ProductData(**data).to_tuple()
 
 
-async def parse_data(session: ClientSession, ids: list):
+async def parse_data(session: ClientSession, ids: list) -> None:
     for chunk in tqdm(list(chunks(3, ids))):
         tasks = []
         for i in chunk:
@@ -79,7 +79,7 @@ async def parse_data(session: ClientSession, ids: list):
         logger.info(f'Saved {count_saved_data} products')
 
 
-async def write_to_excel():
+async def write_to_excel() -> None:
     src_path = os.path.dirname(__file__)
     data_path = os.path.join(src_path, '../data')
     if not os.path.exists(data_path):

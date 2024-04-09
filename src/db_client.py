@@ -9,7 +9,7 @@ async def connection() -> Connection:
     return conn
 
 
-async def create_table():
+async def create_table() -> None:
     conn = await connection()
     await conn.execute("""CREATE TABLE IF NOT EXISTS ga_product(
     id BIGSERIAL PRIMARY KEY ,
@@ -28,7 +28,7 @@ async def create_table():
     await conn.close()
 
 
-async def data_cleaner():
+async def data_cleaner() -> None:
     conn = await connection()
     await conn.execute("""TRUNCATE TABLE ga_product""")
 
@@ -47,7 +47,7 @@ async def insert_data(data: list) -> int:
     return count
 
 
-async def get_products():
+async def get_products() -> list[list]:
     conn = await connection()
     result = await conn.fetch("""SELECT product_id, name, brand, product_type, price, description, 
     application, composition, about_brand, addit_info FROM ga_product""")
